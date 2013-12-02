@@ -1,0 +1,108 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+body {
+  padding-bottom: 40px;
+  color: #5a5a5a;
+}
+
+@font-face {
+  font-family: MaxOT;
+  src: url("MAXOT-REGULAR.OTF") format("opentype");
+}
+
+@font-face {
+  font-family: MaxOTBold;
+  src: url("MAXOT-BOLD.OTF") format("opentype");
+}
+
+@font-face {
+  font-family: Melior;
+  src: url("MELIORLTSTD.OTF") format("opentype");
+}
+
+@font-face {
+  font-family: MeliorBold;
+  src: url("MELIORLTSTD-BOLD.OTF") format("opentype");
+}
+
+
+
+/*********************
+ * Posts*
+ *********************/
+
+
+
+.postWrapper{
+  padding: 0px;
+  padding-top: 35px;
+  padding-bottom: 35px;  
+  color: rgb(90, 90, 90);
+}
+
+
+
+.postTitle{
+  font-family: MaxOTBold;
+  font-size: 50px;
+  font-weight: 500;
+  padding - top: 10px;
+  padding - bottom: 10px;
+  line-height: 55px;
+  color: #00a1de;
+}
+
+.postContent{
+  font-family: Melior;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.postTimestamp{
+  font-style: italic;
+  font-size: 18px;
+  color: rgb(120, 120, 120);
+}
+
+.divider{
+  border-bottom-color: rgb(211, 211, 211);
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+}
+
+.pageNavLink{
+  color: rgb(255, 255, 255);
+  min-height: 35px; 
+}
+
+.pageNavLink a: visited{
+  color: rgb(256, 90, 0);  
+}
+
+.pageNavPrev {
+  float: left;
+}
+
+.pageNavNext {
+  float: right;
+}
+
+
+/***************************
+ * Overwrite from mainpage *
+ ***************************/
+
+.container.marketing.article{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.col-md-8{
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.content-body-kb{
+  width: 100%;
+}

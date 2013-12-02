@@ -1,0 +1,71 @@
+
+/*********************
+ * Posts*
+ *********************/
+
+.postWrapper{
+ 
+  padding: 15px;
+  color: rgb(90, 90, 90);
+}
+
+.postWrapper img{
+  padding: 20px;
+}
+
+.postTitle{
+  font-family: MaxOTBold;
+  font-size: 50;
+  font-weight: 500;
+  padding: 10px;
+  line-height: 55px;
+  color: #00a1de;
+}
+
+.postContent{
+  font-family: Melior;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.postContent img{
+  
+}
+
+.postTimestamp{
+  font-style: italic;
+  font-size: 18px;
+  color: rgb(120, 120, 120);
+}
+
+.divider{
+  border-bottom-color: rgb(211, 211, 211);
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+}
+
+.pageNavLink{
+  color: rgb(255, 255, 255);
+  min-height: 35px; 
+}
+
+.pageNavLink a: visited{
+  color: rgb(256, 90, 0);  
+}
+
+.pageNavPrev {
+  float: left;
+}
+
+.pageNavNext {
+  float: right;
+}
+
+
+/***************************
+ * Overwrite from mainpage *
+ ***************************/
+
+.col-md-8{
+  width: 100%;
+}
